@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+server:
+  context-path: /channelGateWay/
+  connection-timeout: 2000
+  display-name: channelGateWay
+  port: 8081
+  undertow:
+    accesslog:
+      enabled: true
+    io-threads: 1
+    worker-threads: 1000
