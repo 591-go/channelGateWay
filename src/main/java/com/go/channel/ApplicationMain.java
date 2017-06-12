@@ -35,5 +35,6 @@ public class ApplicationMain {
         springApplication.addListeners(
                 new ApplicationPidFileWriter(pidFile));
         springApplication.run();
+
     }
 }
